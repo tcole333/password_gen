@@ -3,7 +3,7 @@ library(dplyr)
 library(shiny)
 
 #data 
-eff_list <- read.table("~/Downloads/eff_large_wordlist.txt")
+eff_list <- read.table("eff_large_wordlist.txt")
 
 
 # Define server logic required to draw a histogram
@@ -30,5 +30,5 @@ password_gen <- function(words) {
     password <- c(password, toString(w))
     word_len = word_len - 1
   }
-  print(paste(password, collapse = ""))
+  paste(password, collapse = "")
 }
