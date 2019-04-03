@@ -2,7 +2,7 @@
 library(shiny)
 
 #data 
-eff_list <- read.table("~/Downloads/eff_large_wordlist.txt")
+eff_list <- read.table("eff_large_wordlist.txt")
 
 
 # Define server logic required to draw a histogram
