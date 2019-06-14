@@ -11,7 +11,7 @@ shinyUI(fluidPage(
     sidebarPanel(
        sliderInput("words",
                    "Number of words to include:",
-                   min = 0,
+                   min = 3,
                    max = 6,
                    value = 0),
        submitButton(text = "Generate")
